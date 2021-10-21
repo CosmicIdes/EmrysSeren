@@ -1,6 +1,10 @@
 header {
     background-color: #897d9b;
 }
+h1 {
+    color: #fff;
+    align-content:flex-start;
+}
 
 /*navigation*/
 button#hamburgerBtn { 
@@ -9,21 +13,30 @@ button#hamburgerBtn {
     color: #fff;
     font-size: 2.4rem;
     cursor: pointer;
-    padding: 0 30px 0 2vw;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: .8rem;
 }
 
-nav {background-color: #897d9b;}
-nav ul{margin:0; padding: 0;}
-nav li {list-style-type: none;}
-
-nav a {
+nav {background-color: #897d9b;
     display: block;
     padding: .8rem 0; 
     color: #eee;
     text-align: center;
     text-decoration: none;
 }
+nav ul{margin:0; padding: 0;}
+nav li {list-style-type: none;}
+
 nav li.active {background-color: rgba(0,0,0,0.5);}
 nav a:hover {background-color: rgba(0,0,0,0.2);}
 nav ul.open {display: block;}
-nav ul {display: none;} 
+nav ul {display: none;} /*this makes the nested lists disappear for some reason*/
+
+
+h6 {
+    color: rgb(71, 54, 78);
+}
+
+
