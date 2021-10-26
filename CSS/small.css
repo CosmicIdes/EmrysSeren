@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: #f4cd92;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 h1 {
     color: #fff;
     align-content:flex-start;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1;
     margin: 1;
 }
@@ -23,7 +24,7 @@ button#hamburgerBtn {
     background: none;
     border:none;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
     position: absolute; 
     top: 0;
@@ -34,7 +35,7 @@ button#hamburgerBtn {
 nav {background-color: #897d9b;
     display: block;
     padding: .8rem 0; 
-    color: #eee;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     font-family: 'Sue Ellen Francisco', cursive;
@@ -51,7 +52,13 @@ nav li {
 nav li.active {background-color: rgba(0,0,0,0.5);}
 nav a:hover {background-color: rgba(0,0,0,0.2);}
 nav ul.open {display: block;}
-nav ul {display: none;} /*this makes the nested lists disappear for some reason*/
+nav > ul {display: none;}
+
+.sublist {
+    font-size: .8rem;
+    font-family: 'Lexend Exa', sans-serif;
+    padding: 1rem;
+}
 
 /*end navigation*/
 
@@ -66,8 +73,16 @@ section h6 {
 
 .card {
     display: block;
-    padding: 1;
-    margin: 3;
+    padding: 2;
+    margin: 5px;
+    width: 200px;
+    background-color:#897d9b;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cardImg {
     border: 2px;
     border-style: solid;
+    border-radius: 20px;
 }
