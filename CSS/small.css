@@ -9,14 +9,15 @@ header {
 }
 h1 {
     color: #fff;
-    align-content:flex-start;
     font-size: 2.5rem;
-    padding: 1;
-    margin: 1;
+    padding: 0;
+    margin: 3px 3px 0px 0px;
+    text-align: left;
 }
 
 body{
     font-family: 'Lexend Exa', sans-serif;
+    background-color: #eee;
 }
 
 /*navigation*/
@@ -24,7 +25,7 @@ button#hamburgerBtn {
     background: none;
     border:none;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     position: absolute; 
     top: 0;
@@ -62,27 +63,44 @@ nav > ul {display: none;}
 
 /*end navigation*/
 
-section h6 {
-    color: rgb(71, 54, 78);
-    background-color: rgba(255, 255, 255, 0.5);
+th, tr {
+    border: 1px;
+    border-style: solid;
+    border-color: #897d9b;
+}
+
+
+.mainTable {
+    background-color:#3e3250;
+    border: 1px;
+    border-style: solid;
+    border-color: #897d9b;
+    border-collapse: collapse;
+    color: #fff;
+    font-family: 'Sue Ellen Francisco', cursive;
+    width: 100%;
+}
+
+h6 {
+    color: #fff;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1.75rem;
     padding: 0;
     margin: 0;
 }
 
-.card {
+/*.card {
     display: block;
-    padding: 2;
-    margin: 5px;
+    padding: 0;
+    margin: 0px;
     width: 200px;
     background-color:#897d9b;
     text-align: center;
-    border-radius: 20px;
 }
 
 .cardImg {
     border: 2px;
     border-style: solid;
     border-radius: 20px;
-}
+}*/
