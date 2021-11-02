@@ -1,10 +1,24 @@
 a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
     color: #f4cd92;
 }
 
+body{
+    font-family: 'Lexend Exa', sans-serif;
+    /*background-color: rgb(187, 179, 192);*/
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
 header {
-    background-color: #897d9b;
     font-family: 'Sue Ellen Francisco', cursive;
     padding: 0;
     margin: auto;
@@ -13,15 +27,9 @@ header {
 
 h1 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 32px;
     padding: 3px;
     margin: 3px 3px 0px 0px;
-    text-align: center;
-}
-
-body{
-    font-family: 'Lexend Exa', sans-serif;
-    background-color: #eee;
     text-align: center;
 }
 
@@ -30,20 +38,20 @@ body{
 button#menuBtn { 
     background: none;
     border:none;
-    color: #f4cd92;
+    color: #ffffff;
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1rem;
     cursor: pointer;
     position: absolute;
     top: -250%;
-    left: 0;
+    left: 5px;
     padding: 0.5rem;
     margin: 0;
-    border: #f4cd92 groove 3px;
+    border: #ffffff solid 3px;
     border-radius: 10px;
 }
 
-nav {background-color: #897d9b;
+nav {background-color: #727aa8;
     display: block;
     padding: .8rem 0; 
     color: #fff;
@@ -82,9 +90,7 @@ nav > ul {display: none;}
     height: 150px;
 }
 
-h6 {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
+h3 {
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1.75rem;
     padding: 0;
@@ -92,20 +98,41 @@ h6 {
 }
 
 .cardStack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 700px;
+    display: inline-block;
+    position: center;
     margin: auto;
-
 }
 
 .card {
-    padding: 0;
-    margin: 0px;
-    width: 200px;
-    background-color:#3a3149;
+    padding: 0 180px;
+    margin: 5px;
+    background-color:#727aa8;
     text-align: center;
-    border: #000 solid 3px;
+    border: none;
+    border-radius: 30px;
 }
 /* end cards*/
+
+/*footer*/
+.footerDiv {
+    flex-wrap: wrap;
+}
+
+.btnNewsletter {
+    background: none;
+    border:none;
+    color: #ffffff;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+}
+
+.inputNewsletter {
+    line-height: 3.5;
+    font-family: 'Lexend Exa', sans-serif;
+}
