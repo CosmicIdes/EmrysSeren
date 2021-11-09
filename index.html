@@ -17,9 +17,10 @@
 </head>
 <body>
     <header id="mainheader">
+        <button id="menuBtn">Menu</button>
         <h1>Emrys Seren Art</h1>
         <nav>
-            <button id="menuBtn">Menu</button>
+           
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li>About</li>
@@ -50,26 +51,32 @@
         <div class="cardStack">
             <br>
             <section class="card">
-                <h3>Updates</h6>
+                <h3><img class="baseImg" src="images/veinofstardust.png"><img class="hoverImg" src="images/snugorbit.png"> Updates</h3>
             </section>
             <section class="card">
-                <h3>Podcast</h6>
-            </section>
-            <section class="card">
-                <h3>Prose</h6>
+                <h3>Snug Orbit Podcast</h3>
             </section>
             <section class="card">
                 <a href="https://tapas.io/series/A-Vein-of-Stardust/info">
-                <h3>A Vein of Stardust</h6>
+                <h3>A Vein of Stardust</h3>
                 </a>
             </section>
             <section class="card">
                 <a href="https://tapas.io/series/SnugOrbit/info">
-                <h3>Snug Orbit</h6>
+                <h3>Snug Orbit Comic</h3>
                 </a>
             </section>
             <section class="card">
-                <h3>Art</h6></section>
+                <h3>Gallery</h3></section>
+            </section>
+            <section class="card">
+                <h3>Support</h3></section>
+            </section>
+        </div>
+        <div class="aboutDiv">
+            <section class="about">
+                <h4>About</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
             </section>
         </div>
     </main>
@@ -83,12 +90,13 @@
             </section>
             <section class="footerRight">
                 <input type="email" name="contact[email]" id="ContactFooter-email" class="inputNewsletter" value placeholder="Email address" required autocorrect="off" autocapitalize="off">
-                <button type="submit" class="btnNewsletter">Subscribe</button>
+                <button type="submit" class="btnNewsletter" id="btnSubscribe" onclick='subscribeBox();'>Subscribe</button>
             </section>
         </div>
 
     </footer>
 
     <script src="js/menuToggle.js"></script> 
+    <script src="js/subscribeBox.js"></script>
 </body>
 </html>
