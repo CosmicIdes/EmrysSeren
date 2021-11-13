@@ -7,7 +7,13 @@
     <meta name="author" content="Emrys Seren Art">
     <meta name="description" content="Website for Emrys Seren Art">
     <title>Emrys Seren Art</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#727aa8">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
@@ -23,27 +29,12 @@
            
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
-                <li>About</li>
-                    <ul class="sublist">
-                        <li>About Emrys</li>
-                        <li>About Snug Orbit</li>
-                        <li>About A Vein of Stardust</li>
-                    </ul>
-                <li>Archive</li>
-                    <ul class="sublist">
-                        <li>Full Archive</li>
-                        <li>Snug Orbit</li>
-                        <li>A Vein of Stardust</li>
-                        <li>Blog Posts</li>
-                        <li>Studio Posts</li>
-                    </ul>
-                <li>Links</li>
-                    <ul class="sublist">
-                        <li><a href="https://www.patreon.com/emrysseren">Patreon</a></li>
-                        <li><a href="https://mobile.twitter.com/emrysseren">Twitter</a></li>
-                        <li><a href="https://tapas.io/emrysseren">Tapas</a></li>
-                        <li><a href="https://www.facebook.com/emrysseren/">Facebook</a></li>
-                    </ul>
+                <li>Updates</li>
+                <li>Gallery</li>    
+                <li>A Vein of Stardust</li>
+                <li>Snug Orbit Comic</li>    
+                <li>Support Us</li>
+                <li>Navigation</li>  
             </ul>
         </nav>
     </header>
@@ -51,34 +42,26 @@
         <div class="cardStack">
             <br>
             <section class="card">
-                <h3><img class="baseImg" src="images/veinofstardust.png"><img class="hoverImg" src="images/snugorbit.png"> Updates</h3>
-            </section>
-            <section class="card">
-                <h3>Snug Orbit Podcast</h3>
+                <h3><img class="baseImgLeft" src="images/Gallerywebimg1501.png"><img class="hoverImgLeft" src="images/Gallerywebimg1502.png"> Updates</h3>
             </section>
             <section class="card">
                 <a href="https://tapas.io/series/A-Vein-of-Stardust/info">
-                <h3>A Vein of Stardust</h3>
+                <h3><img class="baseImgLeft" src="images/Voswebimgserenity1501.png"><img class="hoverImgLeft" src="images/Voswebimgserenity1502.png"> A Vein of Stardust<img class="baseImgRight" src="images/voswebimgian1501.png"><img class="hoverImgRight" src="images/voswebimgian1502.png"></h3>
                 </a>
             </section>
             <section class="card">
                 <a href="https://tapas.io/series/SnugOrbit/info">
-                <h3>Snug Orbit Comic</h3>
+                <h3><img class="baseImgLeft" src="images/Snugorbitwebimg1501.png"><img class="hoverImgLeft" src="images/Snugorbitwebimg1502.png"> Snug Orbit Comic</h3>
                 </a>
             </section>
             <section class="card">
-                <h3>Gallery</h3></section>
+                <h3><img class="baseImgLeft" src="images/Gallerywebimg1501.png"><img class="hoverImgLeft" src="images/Gallerywebimg1502.png"> Gallery</h3></section>
             </section>
             <section class="card">
-                <h3>Support</h3></section>
+                <h3>Support Us</h3></section>
             </section>
         </div>
-        <div class="aboutDiv">
-            <section class="about">
-                <h4>About</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            </section>
-        </div>
+        <br><br>
     </main>
 
     <!--Footer-->
@@ -86,11 +69,17 @@
         <div class="footerDiv">
             <hr>
             <section class="footerLeft">
-                <p>Content</p>
-            </section>
-            <section class="footerRight">
+                <h5>About</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 <input type="email" name="contact[email]" id="ContactFooter-email" class="inputNewsletter" value placeholder="Email address" required autocorrect="off" autocapitalize="off">
                 <button type="submit" class="btnNewsletter" id="btnSubscribe" onclick='subscribeBox();'>Subscribe</button>
+            </section>
+            <section class="footerRight">
+                <h5>Links</h5>
+                    <li class="socialMedia"><a href="https://www.facebook.com/emrysseren/">Facebook</a></li>
+                    <li class="socialMedia"><a href="https://www.patreon.com/emrysseren">Patreon</a></li>
+                    <li class="socialMedia"><a href="https://emrysseren.tumblr.com/">Tumbler</a></li>
+                    <li class="socialMedia"><a href="https://mobile.twitter.com/emrysseren">Twitter</a></li>
             </section>
         </div>
 

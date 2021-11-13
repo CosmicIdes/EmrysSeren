@@ -40,6 +40,14 @@ h4 {
     font-size: 24px;
 }
 
+h5 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: #fff;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
 p {
     font-family: 'Lexend Exa' sans-serif;
     color: #fff;
@@ -83,29 +91,19 @@ nav li {
 }
 
 nav li.active {background-color: rgba(0,0,0,0.5);}
-nav a:hover {background-color: rgba(0,0,0,0.2);}
+nav a:hover {background-color: rgba(0,0,0,0);}
 nav ul.open {display: block;}
 nav > ul {display: none;}
 
-.sublist {
-    font-size: .8rem;
-    font-family: 'Lexend Exa', sans-serif;
-    padding: 1rem;
-}
 
 /*end navigation*/
 
 
 /*cards*/
 
-.cardImg {
-    width: 150px;
-    height: 150px;
-}
-
 h3 {
     font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     padding: 0;
     margin: 0;
 }
@@ -117,7 +115,7 @@ h3 {
 }
 
 .card {
-    padding: 0 180px;
+    padding: 0 130px;
     margin: 5px;
     background-color:#727aa8;
     text-align: center;
@@ -125,36 +123,74 @@ h3 {
     border-radius: 30px;
 }
 
-.hoverImg {
+.hoverImgLeft {
     display: none;
+    height: 75px;
 }
 
-.baseImg {
+.baseImgLeft {
     display: inline-block;
-    height: 35px;
     position: absolute;
-    left: 5rem;
+    left: 4rem;
+    padding: .5rem;
+    height: 75px;
+}
+
+.card:hover .hoverImgLeft {
+    display: inline-block;
+    position: absolute;
+    left: 4rem;
     padding: .5rem;
 }
 
-.card:hover .hoverImg {
-    display: inline-block;
-    height: 35px;
-    position: absolute;
-    left: 5rem;
-    padding: .5rem;
-}
-
-.card:hover .baseImg {
+.card:hover .baseImgLeft {
     display: none;
 }
 
+.hoverImgRight {
+    display: none;
+    height: 75px;
+}
 
+.baseImgRight {
+    display: inline-block;
+    position: absolute;
+    right: 4rem;
+    padding: .5rem;
+    height: 75px;
+}
+
+.card:hover .hoverImgRight {
+    display: inline-block;
+    position: absolute;
+    right: 4rem;
+    padding: .5rem;
+}
+
+.card:hover .baseImgRight {
+    display: none;
+}
 /* end cards*/
 
 /*footer*/
 .footerDiv {
     flex-wrap: wrap;
+}
+
+.footerLeft {
+    position: left;
+    display: block;
+}
+
+.footerRight {
+    position: right;
+    display: block;
+    border-left: 2px #fff;
+    height: 200px;
+}
+
+.socialMedia {
+    list-style: none;
 }
 
 .btnNewsletter {
