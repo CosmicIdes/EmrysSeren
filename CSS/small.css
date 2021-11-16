@@ -80,12 +80,15 @@ nav {background-color: #727aa8;
     text-decoration: none;
     font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
+    z-index: 1000;
 }
+
 nav ul{
     margin:0; 
     padding: 0;
     font-size: 1.5rem;
 }
+
 nav li {
     list-style-type: none;
 }
@@ -121,25 +124,26 @@ h3 {
     text-align: center;
     border: none;
     border-radius: 30px;
+    position: relative;
 }
 
 .hoverImgLeft {
     display: none;
-    height: 75px;
+    height: 72px;
 }
 
 .baseImgLeft {
     display: inline-block;
     position: absolute;
-    left: 4rem;
+    left: 1.5rem;
     padding: .5rem;
-    height: 75px;
+    height: 72px;
 }
 
 .card:hover .hoverImgLeft {
     display: inline-block;
     position: absolute;
-    left: 4rem;
+    left: 1.5rem;
     padding: .5rem;
 }
 
@@ -149,21 +153,21 @@ h3 {
 
 .hoverImgRight {
     display: none;
-    height: 75px;
+    height: 72px;
 }
 
 .baseImgRight {
     display: inline-block;
     position: absolute;
-    right: 4rem;
+    right: 1.5rem;
     padding: .5rem;
-    height: 75px;
+    height: 72px;
 }
 
 .card:hover .hoverImgRight {
     display: inline-block;
     position: absolute;
-    right: 4rem;
+    right: 1.5rem;
     padding: .5rem;
 }
 
@@ -174,19 +178,18 @@ h3 {
 
 /*footer*/
 .footerDiv {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-color: #727aa8;
 }
 
 .footerLeft {
-    position: left;
-    display: block;
+    flex-basis: 75%; 
+    padding: 1.5rem;  
 }
 
 .footerRight {
-    position: right;
-    display: block;
-    border-left: 2px #fff;
-    height: 200px;
+   flex-basis: 25%;
 }
 
 .socialMedia {
@@ -210,4 +213,12 @@ h3 {
 .inputNewsletter {
     line-height: 3.5;
     font-family: 'Lexend Exa', sans-serif;
+}
+
+.horizontalLine {
+    border-top: 1px dashed #ffffff;
+}
+
+.verticalLine {
+    border-top: 1px dashed black;
 }

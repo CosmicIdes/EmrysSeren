@@ -66,14 +66,16 @@
 
     <!--Footer-->
     <footer>
+        <hr class="horizontalLine">
         <div class="footerDiv">
-            <hr>
+            
             <section class="footerLeft">
                 <h5>About</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 <input type="email" name="contact[email]" id="ContactFooter-email" class="inputNewsletter" value placeholder="Email address" required autocorrect="off" autocapitalize="off">
-                <button type="submit" class="btnNewsletter" id="btnSubscribe" onclick='subscribeBox();'>Subscribe</button>
+                <button type="submit" class="btnNewsletter" id="btnSubscribe">Subscribe</button>
             </section>
+            <hr class="verticalLine">
             <section class="footerRight">
                 <h5>Links</h5>
                     <li class="socialMedia"><a href="https://www.facebook.com/emrysseren/">Facebook</a></li>
@@ -82,10 +84,11 @@
                     <li class="socialMedia"><a href="https://mobile.twitter.com/emrysseren">Twitter</a></li>
             </section>
         </div>
-
+        copyright <span id="year"></span> by Emrys Seren
     </footer>
 
     <script src="js/menuToggle.js"></script> 
     <script src="js/subscribeBox.js"></script>
+    <script src="js/copyrightYear.js"></script>
 </body>
 </html>
