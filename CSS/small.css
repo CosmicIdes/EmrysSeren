@@ -10,8 +10,8 @@ a:hover {
 
 body{
     font-family: 'Lexend Exa', sans-serif;
-    /*background-color: rgb(187, 179, 192);*/
-    background-image: url("../images/background.jpg");
+    background-color: #9190c0;
+    background-image: url("");
     background-repeat: repeat;
     background-size: 400px;
     text-align: center;
@@ -106,8 +106,8 @@ nav > ul {display: none;}
 
 h3 {
     font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 2.5rem;
-    padding: 0;
+    font-size: 2rem;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -127,6 +127,29 @@ h3 {
     position: relative;
 }
 
+.cardHalf {
+    padding: 0;
+    margin: 3px;
+    background-color:#727aa8;
+    text-align: right;
+    padding: 0 1rem 0;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    flex-direction: row;
+    flex-basis: 50%;
+    max-width: 205px;
+}
+
+.cardStackHalf {
+    display: flex;
+    position: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    
+}
+
 .hoverImgLeft {
     display: none;
     height: 72px;
@@ -136,6 +159,7 @@ h3 {
     display: inline-block;
     position: absolute;
     left: 1.5rem;
+    bottom: .3rem;
     padding: .5rem;
     height: 72px;
 }
@@ -144,10 +168,37 @@ h3 {
     display: inline-block;
     position: absolute;
     left: 1.5rem;
+    bottom: .3rem;
     padding: .5rem;
 }
 
 .card:hover .baseImgLeft {
+    display: none;
+}
+
+.hoverImgLeftHalf {
+    display: none;
+    height: 72px;
+}
+
+.baseImgLeftHalf {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: .3rem;
+    padding: .5rem;
+    height: 72px;
+}
+
+.cardHalf:hover .hoverImgLeftHalf {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: .3rem;
+    padding: .5rem;
+}
+
+.cardHalf:hover .baseImgLeftHalf {
     display: none;
 }
 
@@ -160,6 +211,7 @@ h3 {
     display: inline-block;
     position: absolute;
     right: 1.5rem;
+    bottom: .3rem;
     padding: .5rem;
     height: 72px;
 }
@@ -168,6 +220,7 @@ h3 {
     display: inline-block;
     position: absolute;
     right: 1.5rem;
+    bottom: .3rem;
     padding: .5rem;
 }
 
@@ -190,10 +243,12 @@ h3 {
 
 .footerRight {
    flex-basis: 25%;
+   padding: 1.5rem;
 }
 
 .socialMedia {
     list-style: none;
+    padding: .5rem;
 }
 
 .btnNewsletter {
@@ -222,3 +277,4 @@ h3 {
 .verticalLine {
     border-top: 1px dashed black;
 }
+
