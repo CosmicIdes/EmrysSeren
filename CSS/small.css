@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: #ffffff;
+    color:rgb(83, 82, 138);
 }
 
 a:hover {
@@ -11,11 +11,11 @@ a:hover {
 body{
     font-family: 'Lexend Exa', sans-serif;
     background-color: #9190c0;
-    background-image: url("");
+    background-image: url("../images/wallpaper.png");
     background-repeat: repeat;
     background-size: 400px;
     text-align: center;
-    color: #ffffff;
+    color: rgb(83, 82, 138);
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(83, 82, 138);
     font-size: 32px;
     padding: 3px;
     margin: 3px 3px 0px 0px;
@@ -36,13 +36,13 @@ h1 {
 
 h4 {
     font-family: 'Sue Ellen Francisco', cursive;
-    color: #fff;
+    color: rgb(83, 82, 138);
     font-size: 24px;
 }
 
 h5 {
     font-family: 'Sue Ellen Francisco', cursive;
-    color: #fff;
+    color: rgb(83, 82, 138);
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -50,16 +50,16 @@ h5 {
 
 p {
     font-family: 'Lexend Exa' sans-serif;
-    color: #fff;
+    color: rgb(83, 82, 138);
     font-size: 14px;
 }
 
 /*navigation*/
 
 button#menuBtn { 
-    background: none;
+    background: #f1f0f7;
     border:none;
-    color: #ffffff;
+    color: rgb(83, 82, 138);
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1rem;
     cursor: pointer;
@@ -68,19 +68,20 @@ button#menuBtn {
     left: 5px;
     padding: 0.5rem;
     margin: 0;
-    border: #ffffff solid 3px;
+    border: rgb(83, 82, 138) solid 3px;
     border-radius: 10px;
 }
 
-nav {background-color: #727aa8;
+nav {background-color: #f1f0f7;
     display: block;
-    padding: .8rem 0; 
-    color: #fff;
+    padding: .8rem .8rem;
+    color: rgb(83, 82, 138);
     text-align: center;
     text-decoration: none;
     font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
     z-index: 1000;
+    border: rgb(83, 82, 138) solid 1px;
 }
 
 nav ul{
@@ -109,6 +110,7 @@ h3 {
     font-size: 2rem;
     padding: 1rem;
     margin: 0;
+    color: rgb(83, 82, 138)
 }
 
 .cardStack {
@@ -120,17 +122,18 @@ h3 {
 .card {
     padding: 0 130px;
     margin: 5px;
-    background-color:#727aa8;
+    background-color:#f1f0f7;
     text-align: center;
     border: none;
     border-radius: 30px;
     position: relative;
+    border: 1px solid rgb(83, 82, 138);
 }
 
 .cardHalf {
     padding: 0;
     margin: 3px;
-    background-color:#727aa8;
+    background-color:#f1f0f7;
     text-align: right;
     padding: 0 1rem 0;
     border: none;
@@ -139,6 +142,7 @@ h3 {
     flex-direction: row;
     flex-basis: 50%;
     max-width: 205px;
+    border: 1px solid rgb(83, 82, 138);
 }
 
 .cardStackHalf {
@@ -233,7 +237,7 @@ h3 {
 .footerDiv {
     display: flex;
     flex-direction: column;
-    background-color: #727aa8;
+    background-color: #f1f0f7;
 }
 
 .footerLeft {
@@ -254,14 +258,14 @@ h3 {
 .btnNewsletter {
     background: none;
     border:none;
-    color: #ffffff;
+    color: rgb(83, 82, 138);
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 1rem;
     cursor: pointer;
     position: absolute;
     padding: 0.2rem;
     margin: 0.2rem;
-    border: #ffffff solid 3px;
+    border: rgb(83, 82, 138) solid 2px;
     border-radius: 10px;
 }
 
@@ -271,7 +275,7 @@ h3 {
 }
 
 .horizontalLine {
-    border-top: 1px dashed #ffffff;
+    border-top: 1px dashed #f1f0f7;
 }
 
 .verticalLine {
