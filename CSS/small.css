@@ -22,7 +22,6 @@ header {
     font-family: 'Sue Ellen Francisco', cursive;
     padding: 0;
     margin: auto;
-    max-width: 620px;
     position: relative;
 }
 
@@ -113,22 +112,20 @@ button#menuBtn {
 }
 
 nav {background-color: #f1f0f7;
-    display: block;
-    padding: .8rem;
-    margin: .8rem;
+    display: block; 
     color: rgb(83, 82, 138);
     text-align: center;
     text-decoration: none;
     font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
     z-index: 1000;
-    border: rgb(83, 82, 138) solid 1px;
 }
 
 nav ul{
     margin:0; 
-    padding: 0;
     font-size: 1.5rem;
+    border: rgb(83, 82, 138) solid 1px;
+    padding: .8rem;
 }
 
 nav li {
@@ -424,4 +421,26 @@ nav > ul {display: none;}
     padding-left: .5rem;
     padding-right: .5rem;
     padding-bottom: 2rem;
+}
+
+.galleryThumb {
+    max-width: 150px;
+    border: 1px solid rgb(83, 82, 138)
+}
+
+.gallerySingle {
+    background-color: #ffffff;
+    border: 1px solid rgb(171, 171, 224);
+    border-radius: 10px;
+    margin: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
+
+.fullImg {
+    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
+    height: auto;
 }
