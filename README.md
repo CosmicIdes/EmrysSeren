@@ -4,9 +4,11 @@ Media queries:
 
 Medium.css changes the footer to be two-column. Large.css reverts it to one column.
 
-CSS Feature:
+CSS Features:
 
+Flexbox is used to change the footer depending on small/mobile, medium, or large sizing.
 
+The menu button is opened and closed by clicking the menu button (in lieu of a hamburger button). The layout of the menu is controlled by css.
 
 Javascript Features:
 
