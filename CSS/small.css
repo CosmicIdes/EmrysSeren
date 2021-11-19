@@ -34,6 +34,29 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: rgb(83, 82, 138);
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+    color: rgb(83, 82, 138)
+}
+
+.h3sub {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: rgb(83, 82, 138)
+}
+
 h4 {
     font-family: 'Sue Ellen Francisco', cursive;
     color: rgb(83, 82, 138);
@@ -48,11 +71,28 @@ h5 {
     margin: 0;
 }
 
+h6 {
+    font-family: 'Lexend Exa' sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
 p {
     font-family: 'Lexend Exa' sans-serif;
     color: rgb(83, 82, 138);
     font-size: 14px;
 }
+
+.subHeader {
+    background-color: #f1f0f7;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: auto;
+    position: center;
+    display: inline-block;
+}
+
 
 /*navigation*/
 
@@ -74,7 +114,8 @@ button#menuBtn {
 
 nav {background-color: #f1f0f7;
     display: block;
-    padding: .8rem .8rem;
+    padding: .8rem;
+    margin: .8rem;
     color: rgb(83, 82, 138);
     text-align: center;
     text-decoration: none;
@@ -104,14 +145,6 @@ nav > ul {display: none;}
 
 
 /*cards*/
-
-h3 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 0;
-    color: rgb(83, 82, 138)
-}
 
 .cardStack {
     display: inline-block;
@@ -282,3 +315,113 @@ h3 {
     border-top: 1px dashed black;
 }
 
+/*Updates Page*/
+
+.mainUpdates {
+    background-color: #f1f0f7;
+    border: 1px solid rgb(83, 82, 138);
+    border-radius: 10px;
+}
+
+.updateBox {
+    border: 1px solid rgb(83, 82, 138);
+    border-radius: 10px;
+    display: inline-block;
+    position: center;
+    margin: .5rem;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.updateBody {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0;
+    margin: 1rem;
+    max-width: 500px;
+    position: center;
+    
+}
+
+.tags {
+    font-style: oblique;
+    text-align: left;
+    padding: 0;
+    margin: 1.2rem;
+}
+
+/*Support Us Page*/
+
+.mainSupportUs {
+    background-color: #f1f0f7;
+    border: 1px solid rgb(83, 82, 138);
+    border-radius: 10px;
+}
+
+ .socialListItem {
+    list-style: none;
+    text-align: center;
+    position: center;
+    margin: 0;
+    padding: 0;
+ }
+
+ .supportUsBody {
+    background-color: #ffffff;
+    border: 1px solid rgb(171, 171, 224);
+    border-radius: 10px;
+    margin-top: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 2.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+    position: center;
+    display: inline-block;
+ }
+
+/*Navigation Page*/
+
+.navigationList {
+    list-style: none;
+}
+.navigationPage {
+    background-color: #f1f0f7;
+    border: 1px solid rgb(83, 82, 138);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.navigationLinks {
+    background-color: #ffffff;
+    border: 1px solid rgb(171, 171, 224);
+    border-radius: 10px;
+    margin: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
+
+.navigationSubHeader {
+    font-size: 26px;
+    padding: .5rem 0 0 0;
+}
+
+/*Gallery Page*/
+
+.mainGallery {
+    background-color: #f1f0f7;
+    border: 1px solid rgb(83, 82, 138);
+    border-radius: 10px;
+}
+
+.galleryBody {
+    background-color: #ffffff;
+    border: 1px solid rgb(171, 171, 224);
+    border-radius: 10px;
+    margin: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
